@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Showbox-Register</title>
+        <style>
+            body {
+                margin-top: 125px;
+                margin-left: 350px;
+                margin-right: 350px;
+    background-image: url("backround login.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-form: center;
+}
+form {
+  margin-left: 20px;
+  border-color: bisque;
+  background-color: white;
+  align-content: center;
+}
+#txtbox {
+    font-size: 18pt;
+    height: 32px;
+    width : 400px;
+    margin-left: 30px;
+    }
+ button{
+  margin:auto;
+  display:block;
+  height:40px;
+  width:100px;
+}
+h1 {
+    border-style: solid;
+    border-color: transparent;
+    background-color:black;
+    margin-bottom: 0px;
+    margin-top: -125px;
+    margin-left: -350px;
+    margin-right: -350px;
+    text-align: center;
+    color:white;
+}
+h2{
+    text-align: center;
+    color:white;
+    }
+    p {
+    text-align:center;
+    color:white;
+}
+h3{
+    text-align:center;
+    color:white;
+}
+          </style>
+    </head>
+    <h1>Showbox</h1>
+    <u><h2 align="center">REGISTRATION</h2></u>
+    <body>
+        <form  id="myForm" method="POST" action="registerservlet">
+        <input type="text" placeholder="Username" name="uname" id="txtbox" height="50" required><br><br>
+        <input type="password" placeholder="Password" name="psw" id="txtbox" required><br><br>
+        
+        <input type="text" placeholder="City " name="city" id="txtbox" required><br><br>
+        
+        <input type="text" placeholder="State" name="state" id="txtbox" required><br><br>
+        
+        <input type="text" placeholder="Country" name="country" id="txtbox" required><br><br>
+        
+        <input type="text" placeholder="Contact" name="contact" id="txtbox" required><br><br>
+        
+        <input type="text" placeholder="Emailid" name="email" id="txtbox" required><br><br>
+        <div><button type="submit" align="center" onclick="index.html;">Register</button></div>
+        <br><br>
+        </form>
+        <p><h3>Already registered? <a href="index.html">LOGIN</a></h3></p>
+        <script>
+</script>
+    </body>
+</html>
